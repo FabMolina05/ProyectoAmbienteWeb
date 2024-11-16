@@ -175,3 +175,17 @@ body, html {
     .card { margin-bottom: 1.5rem; }
     .card-img-top { height: 180px; }
 }
+
+.btn-angosto {
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    padding: 5px 10px; /* Ajusta el padding para hacerlo más delgado */
+    font-size: 14px; /* Ajusta el tamaño de la fuente si es necesario */
+}
+
+.color-c{
+    background-color: gray;
+    color: aliceblue;
+    padding: 5%;
+    border-radius: 50px;
+
+}
