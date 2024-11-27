@@ -1,0 +1,58 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="~{layout/plantilla :: head}">
+    <title>CarHub</title> 
+    <meta charset="UTF-8"/>
+    <!-- Bootstrap CSS -->
+    <link href="assets/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header th:replace="~{layout/plantilla :: header}"></header> 
+
+    <div class="container">
+        <div class="info-container">
+            <h1 class="info-header">Sobre CarHub</h1>
+            <p class="info-text">
+                Bienvenido a CarHub, su proveedor y comprador de confianza de cualquier vehículos. Desde nuestra fundación en 2020, hemos ofrecido un servicio excepcional y una amplia selección de vehículos para satisfacer todas sus necesidades de transporte. 
+            </p>
+            <p class="info-text">
+                Ya sea que necesite un automóvil compacto para moverse por la ciudad, una SUV espaciosa para unas vacaciones familiares, o una camionate o camión para transportar mercancías, en CarHub encontrará el vehículo perfecto para usted. Nos enorgullece ofrecer tarifas competitivas y un proceso de compra fácil y rápido.
+            </p>
+            <p class="info-text">
+                Nuestra misión es proporcionar una experiencia de compra-venta sin complicaciones, con un enfoque en la satisfacción del cliente. Nuestro equipo de profesionales está disponible para asistirle en cada paso del proceso.
+            </p>
+
+            <div class="contact-info">
+                <h2>Contacta con Nosotros</h2>
+                <p><strong>Email:</strong> info@CarHub.com</p>
+                <p><strong>Teléfono:</strong>  8888-8888</p>
+                <p><strong>Dirección:</strong> 123 Calle Principal, San José, Costa Rica</p>
+            </div>
+
+           
+        </div>
+
+        <div class="map-container" >
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094283!2d144.95373531531815!3d-37.816279442016105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577da6df7b8f6ed!2sEnvato!5e0!3m2!1sen!2sau!4v1614553928286!5m2!1sen!2sau"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <footer th:replace="~{layout/plantilla :: footer}"></footer> 
+
+    <!--==JS-Swiper====================================-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!--==jQuery=======================================-->
+    <script src="js/jQuery.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+         <!-- Scripts de Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
